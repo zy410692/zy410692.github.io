@@ -3,17 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>笔记</title>
-  <meta name="description" content="一个小博客。打开文章，文末可以评论。">
+  <title>沈阳市浑南区吃喝玩乐</title>
+  <meta name="description" content="沈阳市浑南区吃喝玩乐：按标签筛选店铺小卡片，也有实测短评。">
   <link rel="stylesheet" href="site.css">
 </head>
 <body>
   <main class="wrap home">
-    <h1>笔记</h1>
-    <p class="lede">写点东西，文末可以评论。</p>
+    <h1>沈阳市浑南区吃喝玩乐</h1>
+    <p class="lede">输入店名或地址筛卡片。已探店标「已探店」，没去过的标「等待博主去探店」。地址以公开信息与到店核实为准。</p>
     <p id="demo-banner" class="demo" hidden>现在这篇是示例。换成你的文章后再发出去。</p>
-    <div id="list" class="list"></div>
+
+    <section class="places-section" aria-label="按标签逛店">
+      <h2 class="section-title">逛店卡片</h2>
+      <label class="search-wrap" for="place-search">
+        <span class="search-label">搜店名 / 地址 / 标签</span>
+        <input id="place-search" type="search" enterkeyhint="search" autocomplete="off"
+          placeholder="例如：浑南西路、全运路、带娃、火锅" />
+      </label>
+      <div id="tag-bar" class="tag-bar" role="toolbar" aria-label="标签筛选"></div>
+      <p id="search-hint" class="search-hint" hidden></p>
+      <div id="place-cards" class="card-grid"></div>
+    </section>
+
+    <section class="posts-section" aria-label="实测短评">
+      <h2 class="section-title">实测短评</h2>
+      <div id="list" class="list"></div>
+    </section>
   </main>
+  <script src="places.js"></script>
   <script src="posts.js"></script>
   <script src="ui.js"></script>
   <script src="list.js"></script>

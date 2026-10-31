@@ -1,0 +1,128 @@
+[
+  {
+    "id": "yuniudao",
+    "name": "煜牛道铜火锅",
+    "area": "全运路",
+    "address": "沈阳市浑南区全运路（精确门牌待核）",
+    "tags": [
+      "浑南区饭店推荐",
+      "火锅",
+      "铜火锅",
+      "晚饭",
+      "实测",
+      "已探店"
+    ],
+    "blurb": "酸菜锅涮生蚝、肉筋；两人约200，偏贵。",
+    "verified": true,
+    "postId": "yuniudao-tonghuoguo",
+    "image": "assets/yuniudao-storefront.jpg",
+    "imageNote": null,
+    "explored": true,
+    "visitStatus": "已探店"
+  },
+  {
+    "id": "kids-med-cefixime",
+    "name": "头孢克肟（全名待补）",
+    "area": "家庭药箱",
+    "address": "家里药箱（记账，不荐药）",
+    "tags": [
+      "儿童带娃用药",
+      "抗生素",
+      "记账"
+    ],
+    "blurb": "症状：白天嗓子疼说不出话，晚上低烧/高烧。用药记账：头孢克肟（全名待补）。只记账不荐药。",
+    "verified": false,
+    "postId": "kids-med-cefixime",
+    "explored": null,
+    "visitStatus": "记账"
+  },
+  {
+    "id": "ooedo-onsen",
+    "name": "大江户温泉（浑南店）",
+    "area": "浑南西路",
+    "address": "沈阳市浑南区浑南西路10甲-6号（红星美凯龙对面）；过夜可走旁侧大江户温泉酒店 10甲-5号2门（用户实测：现可过夜，以到店为准）",
+    "tags": [
+      "带娃",
+      "温泉",
+      "洗浴",
+      "浑南",
+      "实测",
+      "冷门",
+      "已探店"
+    ],
+    "blurb": "一票制，额外消费少。三四岁可直接泡澡；淘气堡不大但人少偏冷门，适合不想跟人挤、一个人带娃玩。",
+    "verified": true,
+    "postId": "ooedo-onsen-kids",
+    "image": null,
+    "imageNote": "店面照待补",
+    "explored": true,
+    "visitStatus": "已探店"
+  },
+  {
+    "id": "langtoushan-hotpot",
+    "name": "狼头山火锅（白塔堡店）",
+    "area": "白塔市场旁",
+    "address": "沈阳市浑南区沈营大街601巷路口（白塔堡店；距白塔市场公交站约450米，以到店为准）",
+    "tags": [
+      "浑南区饭店推荐",
+      "火锅",
+      "心目中的浑南火锅",
+      "小龙虾",
+      "白塔",
+      "实测",
+      "已探店"
+    ],
+    "blurb": "心目中的浑南火锅：小龙虾好吃，菜是免费的。白塔市场旁边，适合想吃实惠带料的一顿。",
+    "verified": true,
+    "postId": "langtoushan-baitabu",
+    "image": null,
+    "imageNote": "店面照待补（网上图不准，已撤）",
+    "source": "百度地图 POI 狼头山火锅KTV欢唱·烤串(白塔堡店)",
+    "explored": true,
+    "visitStatus": "已探店"
+  },
+  {
+    "id": "jiachang-xiaobozi",
+    "name": "家常小波仔",
+    "area": "国际软件园",
+    "address": "沈阳市浑南区国际软件园（精确楼栋/门牌待核；公开检索暂无钉死门牌）",
+    "tags": [
+      "浑南区饭店推荐",
+      "小碗菜",
+      "家常菜",
+      "国际软件园",
+      "五星推荐",
+      "实测",
+      "已探店"
+    ],
+    "blurb": "五星推荐。小碗菜、现做，多数菜带一点辣。适合在软件园想吃热乎家常的一顿。",
+    "verified": true,
+    "explored": true,
+    "visitStatus": "已探店",
+    "postId": "jiachang-xiaobozi",
+    "image": null,
+    "imageNote": "店面照待补"
+  },
+  {
+    "id": "chunxi-yuanzi",
+    "name": "春熙院子（中海康城店）",
+    "area": "智慧三街",
+    "address": "沈阳市浑南区智慧三街廊桥国际南侧约160米（百度地图标注；无门牌号，以到店为准）",
+    "tags": [
+      "浑南区饭店推荐",
+      "湘菜",
+      "偏辣",
+      "中海康城",
+      "实测",
+      "已探店"
+    ],
+    "blurb": "已探店。偏有点辣的菜；中海康城店，智慧三街廊桥国际南侧约160米。",
+    "verified": true,
+    "explored": true,
+    "visitStatus": "已探店",
+    "postId": "chunxi-yuanzi",
+    "image": null,
+    "imageNote": "店面照待补",
+    "phone": "024-86265666"
+  }
+]
