@@ -171,17 +171,29 @@ window.PLACES = [
       "湘菜",
       "偏辣",
       "中海康城",
+      "有包厢",
+      "免费停车",
+      "有宝宝椅",
+      "庭院餐厅",
       "实测",
       "已探店"
     ],
-    "blurb": "已探店。偏有点辣的菜；中海康城店，智慧三街廊桥国际南侧约160米。",
+    "blurb": "已探店。偏有点辣的菜，湘菜热门榜浑南区第 1 名；人均约 73，有包厢和宝宝椅，适合带娃或家庭聚。",
     "verified": true,
-    "source": "百度地图标注 + 站点记录的店内电话",
+    "rating": 4.4,
+    "reviews": 2350,
+    "price": "73",
+    "hours": "11:00 起",
+    "source": "大众点评门店页截图（用户提供）；门牌沿用百度地图标注",
+    "checked": "2026-11-01",
+    "todo": [
+      "门牌号（点评与地图都只到「智慧三街」，没有门牌）"
+    ],
     "explored": true,
     "visitStatus": "已探店",
     "postId": "chunxi-yuanzi",
-    "image": null,
-    "imageNote": "店面照待补",
+    "image": "assets/chunxi-yuanzi-storefront.jpg",
+    "imageNote": null,
     "phone": "024-86265666"
   }
 ];
