@@ -1,9 +1,41 @@
 [
   {
+    "id": "leo-pizza",
+    "name": "Leo pizza（河畔新城店）",
+    "area": "朗云街 · 河畔新城",
+    "address": "沈阳市浑南区朗云街8-88号11门（浑南一小斜对面，河畔新城四期东门旁；地铁9号线天成街站D口步行约940米）",
+    "tags": [
+      "比萨",
+      "西餐",
+      "带娃",
+      "儿童游乐区",
+      "免费停车",
+      "可预订",
+      "河畔新城"
+    ],
+    "blurb": "浑南新区比萨口味榜第 2 名。推荐菜：烤牛臀肉比萨、多汁的勺子炸鸡。还没去，先记着。",
+    "verified": true,
+    "rating": 4.7,
+    "reviews": 1706,
+    "price": "80",
+    "hours": "10:00 起",
+    "source": "大众点评门店页截图（用户提供）",
+    "checked": "2026-11-01",
+    "todo": [
+      "打烊时间与是否需要订位",
+      "店面照（现用点评页头图，可换实拍）"
+    ],
+    "postId": null,
+    "image": "assets/leo-pizza-storefront.jpg",
+    "imageNote": null,
+    "explored": false,
+    "visitStatus": "等待博主去探店"
+  },
+  {
     "id": "yuniudao",
     "name": "煜牛道铜火锅",
     "area": "全运路",
-    "address": "沈阳市浑南区全运路（精确门牌待核）",
+    "address": "沈阳市浑南区智慧大街6-21号（1门）",
     "tags": [
       "浑南区饭店推荐",
       "火锅",
@@ -14,6 +46,8 @@
     ],
     "blurb": "酸菜锅涮生蚝、肉筋；两人约200，偏贵。",
     "verified": true,
+    "source": "工商登记经营场所（沈阳市浑南区御煜牛道铜火锅店）",
+    "checked": "2026-11-01",
     "postId": "yuniudao-tonghuoguo",
     "image": "assets/yuniudao-storefront.jpg",
     "imageNote": null,
@@ -22,7 +56,7 @@
   },
   {
     "id": "kids-med-cefixime",
-    "name": "头孢克肟（全名待补）",
+    "name": "头孢克肟（口服抗生素）",
     "area": "家庭药箱",
     "address": "家里药箱（记账，不荐药）",
     "tags": [
@@ -30,31 +64,49 @@
       "抗生素",
       "记账"
     ],
-    "blurb": "症状：白天嗓子疼说不出话，晚上低烧/高烧。用药记账：头孢克肟（全名待补）。只记账不荐药。",
+    "blurb": "症状：白天嗓子疼说不出话，晚上低烧/高烧。用药记账：头孢克肟。只记账不荐药。",
     "verified": false,
+    "todo": [
+      "商品名 / 生产厂家（看药盒正面）",
+      "剂型与规格（颗粒、胶囊、分散片，规格按盒上写）",
+      "有效期至"
+    ],
     "postId": "kids-med-cefixime",
     "explored": null,
     "visitStatus": "记账"
   },
   {
     "id": "ooedo-onsen",
-    "name": "大江户温泉（浑南店）",
+    "name": "大江户·温泉洗浴（浑南店）",
     "area": "浑南西路",
-    "address": "沈阳市浑南区浑南西路10甲-6号（红星美凯龙对面）；过夜可走旁侧大江户温泉酒店 10甲-5号2门（用户实测：现可过夜，以到店为准）",
+    "address": "沈阳市浑南区浑南西路10甲-6号（红星美凯龙对面）；地铁9号线彩霞街站A口步行约500米",
     "tags": [
       "带娃",
       "温泉",
       "洗浴",
+      "过夜",
+      "日式",
+      "儿童乐园",
       "浑南",
       "实测",
       "冷门",
       "已探店"
     ],
-    "blurb": "一票制，额外消费少。三四岁可直接泡澡；淘气堡不大但人少偏冷门，适合不想跟人挤、一个人带娃玩。",
+    "blurb": "一票制，额外消费少。三四岁可直接泡澡；淘气堡不大但人少偏冷门，适合不想跟人挤、一个人带娃玩。全天营业，点评有 22:00 后晚场套票（含过夜+早餐），过夜可行。",
     "verified": true,
+    "rating": 4.7,
+    "reviews": 17604,
+    "price": "146",
+    "hours": "全天",
+    "source": "大众点评门店页截图（用户提供）；地址与「浑南西路10甲-6号」一致",
+    "checked": "2026-11-01",
+    "todo": [
+      "团购价随季节浮动，以点评当日为准",
+      "有条件可换自己的实拍店面照"
+    ],
     "postId": "ooedo-onsen-kids",
-    "image": null,
-    "imageNote": "店面照待补",
+    "image": "assets/ooedo-onsen-storefront.jpg",
+    "imageNote": null,
     "explored": true,
     "visitStatus": "已探店"
   },
@@ -74,10 +126,13 @@
     ],
     "blurb": "心目中的浑南火锅：小龙虾好吃，菜是免费的。白塔市场旁边，适合想吃实惠带料的一顿。",
     "verified": true,
+    "source": "百度地图 POI 狼头山火锅KTV欢唱·烤串(白塔堡店)",
+    "todo": [
+      "白塔堡店具体门牌（目前只到「沈营大街601巷路口」，铺位号未取到）"
+    ],
     "postId": "langtoushan-baitabu",
     "image": null,
     "imageNote": "店面照待补（网上图不准，已撤）",
-    "source": "百度地图 POI 狼头山火锅KTV欢唱·烤串(白塔堡店)",
     "explored": true,
     "visitStatus": "已探店"
   },
@@ -85,7 +140,7 @@
     "id": "jiachang-xiaobozi",
     "name": "家常小波仔",
     "area": "国际软件园",
-    "address": "沈阳市浑南区国际软件园（精确楼栋/门牌待核；公开检索暂无钉死门牌）",
+    "address": "沈阳市浑南区国际软件园（楼栋/门牌待核）",
     "tags": [
       "浑南区饭店推荐",
       "小碗菜",
@@ -97,6 +152,9 @@
     ],
     "blurb": "五星推荐。小碗菜、现做，多数菜带一点辣。适合在软件园想吃热乎家常的一顿。",
     "verified": true,
+    "todo": [
+      "国际软件园内的楼栋与门牌（工商库与地图 POI 均未检索到同名主体）"
+    ],
     "explored": true,
     "visitStatus": "已探店",
     "postId": "jiachang-xiaobozi",
@@ -118,6 +176,7 @@
     ],
     "blurb": "已探店。偏有点辣的菜；中海康城店，智慧三街廊桥国际南侧约160米。",
     "verified": true,
+    "source": "百度地图标注 + 站点记录的店内电话",
     "explored": true,
     "visitStatus": "已探店",
     "postId": "chunxi-yuanzi",

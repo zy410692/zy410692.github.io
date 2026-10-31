@@ -197,6 +197,30 @@ article h1 {
   line-height: 1.65;
 }
 
+.card-facts {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.card-todo {
+  margin: 0 0 8px;
+  padding: 6px 10px;
+  border-left: 3px solid #e0b97a;
+  background: #fbf3e4;
+  color: #7a5522;
+  font-size: 13px;
+  line-height: 1.6;
+  border-radius: 0 8px 8px 0;
+}
+
+.card-src {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 .card-tags {
   display: flex;
   flex-wrap: wrap;

@@ -28,6 +28,8 @@
       place.area || "",
       place.address || "",
       place.blurb || "",
+      place.phone || "",
+      place.source || "",
       (place.tags || []).join(" "),
     ].join(" ").toLowerCase();
   }
@@ -114,9 +116,25 @@
       children.push(
         titleRow,
         el("p", { class: "card-meta" }, [place.area || "", place.area ? " · " : "", place.address || ""]),
-        el("p", { class: "card-blurb" }, [place.blurb || ""]),
-        tagRow
+        el("p", { class: "card-blurb" }, [place.blurb || ""])
       );
+      const facts = [];
+      if (place.rating) {
+        facts.push("评分 " + place.rating + (place.reviews ? "（" + place.reviews + " 条）" : ""));
+      }
+      if (place.price) facts.push("人均 ¥" + place.price);
+      if (place.hours) facts.push("营业 " + place.hours);
+      if (place.phone) facts.push("电话 " + place.phone);
+      if (facts.length) children.push(el("p", { class: "card-facts" }, [facts.join("　")]));
+      if (place.todo && place.todo.length) {
+        children.push(el("p", { class: "card-todo" }, ["待补：" + place.todo.join("；")]));
+      }
+      if (place.source) {
+        children.push(el("p", { class: "card-src" }, [
+          "地址依据：" + place.source + (place.checked ? "（复核 " + place.checked + "）" : ""),
+        ]));
+      }
+      children.push(tagRow);
       if (place.postId) {
         children.push(el("a", {
           class: "card-link",
